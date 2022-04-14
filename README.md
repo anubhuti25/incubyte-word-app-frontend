@@ -3,7 +3,7 @@ The following app allows you to add, edit, delete words from a word list.
 
 ## Prerequisites
 1. Node is installed.
-2. Backend should be running. Refer to this for backend code.
+2. Backend should be running. Refer to this for [Backend code](https://github.com/anubhuti25/incubyte-wordapp-backend).
 
 ## Steps to run
 1. Clone the repository to local maching.
