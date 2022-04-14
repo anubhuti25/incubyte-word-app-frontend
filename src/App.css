@@ -1,0 +1,88 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.container {
+  margin: auto;
+  width: 80vw;
+  position: relative;
+  margin-top: 4rem;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  padding: 0.5rem;
+  font-size: 26px;
+  background-color: rgb(16, 128, 236);
+  color: #f0ffff;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+
+nav font {
+  font-size: 26px;
+  color: rgb(230 201 111);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 26px;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 300;
+}
+
+.add-word {
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-word input {
+  padding: 0.5rem;
+  flex: 1;
+  border: 1px solid rgb(16, 128, 236);
+  border-radius: 4px;
+}
+
+.add-word button {
+  border: none;
+  padding: 0.5rem;
+  width: 10rem;
+  border-radius: 4px;
+  background-color: rgb(16, 128, 236);
+  color: #f0ffff;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 1px solid rgb(16, 128, 236);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  color: rgb(11 25 146);
+}
+
+.card .content {
+  flex: 1;
+}
+
+.card .content input {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.card .icon * {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
